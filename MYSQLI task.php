@@ -28,7 +28,7 @@ include "include.php";
  <p> hello welcome back</p>
 
  <?php
-$insert_data= mysqli_query($db_connect, "INSERT INTO students(id,name,age,gender) VALUES( '100','Great', '20', 'm')");
+$insert_data= mysqli_query($db_connect, "INSERT INTO students(id,name,age,gender) VALUES( '1','Great', '20', 'm')");
 if ($insert_data) {
 echo "Data inserted successfully";
 }
