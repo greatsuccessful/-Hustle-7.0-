@@ -19,21 +19,22 @@ function multiply($num1, $num2, $num3=5){
   $answer= $num1 * $num2 * $num3;
   return "$answer";
 }
-The result is: echo multiply(2, 3);
+echo multiply(2, 3);
  ?>
 
-
-<<?php
+<?php
 include "include.php";
  ?>
  <p> hello welcome back</p>
 
  <?php
-$insert_data= mysqli_query($db_connect, "INSERT INTO students(id,name,age,gender) VALUES( '1','Great', '20', 'm')");
+$insert_data= mysqli_query($db_connect, "INSERT INTO students(id,name,age,gender) VALUES( '100','Great', '20', 'm')");
 if ($insert_data) {
 echo "Data inserted successfully";
 }
  ?>
 
+<br> <br> <br>
+<footer> Thank you sidehutle for this lessions copyright &copyright GREAT</footer>
 </body>
 </html>
